@@ -1,0 +1,9 @@
+version: "3"
+services:
+        calculator:
+                image: localhost:5000/chaeyeon/calculator:latest
+                ports:
+                  - "8090"
+
+        redis:
+                image: redis:latest
